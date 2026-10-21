@@ -418,3 +418,6 @@
 @media(max-width:760px){.lang-switch button{padding:6px 7px}.lang-switch button span{display:none}}
 .brand{white-space:nowrap}
 @media(min-width:1181px){.desktop-nav{gap:18px}.lang-switch button{padding:5px 8px}}
+/* logo */
+.brand-mark{width:44px!important;height:44px!important;border:0!important;display:block!important;color:#11273b;flex:none}
+.brand-mark svg{width:100%;height:100%;display:block}
