@@ -298,3 +298,37 @@
 .pub-no{font-weight:700;color:#d1a654;letter-spacing:.08em;font-size:.8rem}
 .pub-more{margin-top:auto;font-weight:600;font-size:.88rem;color:#16465c}
 .pub-all{background:#0f2a3a;color:#fff;border-color:#0f2a3a}.pub-all small{color:#b9cbd3}.pub-all .pub-more{color:#dbb677}
+/* ecosystem diagram */
+.ecosystem-visual{padding:24px 12px 14px!important;overflow:hidden}
+.eco-diagram svg{display:block;width:100%;height:auto;overflow:visible}
+.eco-ring{fill:none;stroke:#c9e0e1;stroke-width:16;cursor:pointer;transition:stroke .4s}
+.eco-orbit{fill:none;stroke:#8fb2ba;stroke-width:1.5;stroke-dasharray:2 9}
+.eco-ring-text{font-family:Manrope,sans-serif;font-size:15px;font-weight:700;letter-spacing:3.5px;fill:#2e5a6e}
+.eco-spin{transform-box:view-box;transform-origin:500px 360px;animation:ecoSpin 48s linear infinite}
+.eco-spin circle{fill:#2e657b}
+@keyframes ecoSpin{to{transform:rotate(360deg)}}
+.eco-cap path{fill:none;stroke:#8fb2ba;stroke-width:1.5;stroke-dasharray:2 6}
+.eco-cap circle{fill:#1f4f66}
+.eco-cap text{font-family:Manrope,sans-serif;font-size:18px;fill:#2a4252}
+.eco-c{cursor:pointer;outline:none}
+.eco-c circle{stroke:#fff;stroke-width:3;fill-opacity:.9;transform-box:fill-box;transform-origin:center;transition:transform .5s cubic-bezier(.2,.8,.2,1),opacity .4s,stroke .4s}
+.eco-c:hover circle,.eco-c:focus-visible circle{transform:scale(1.035)}
+.eco-diagram svg[data-active=people] .eco-c[data-k=people] circle,.eco-diagram svg[data-active=processes] .eco-c[data-k=processes] circle,.eco-diagram svg[data-active=solutions] .eco-c[data-k=solutions] circle{stroke:#dbb677;stroke-width:5}
+.eco-diagram svg[data-active=space] .eco-ring{stroke:#e5c98e}
+.eco-labels{pointer-events:none}
+.eco-name{font-family:Manrope,sans-serif;font-size:36px;font-weight:700;fill:#fff}
+.eco-kw{font-size:13px;letter-spacing:2.5px;fill:#d8e8ee}
+.eco-l path{stroke:#dbb677;stroke-width:2}
+.eco-glow{pointer-events:none;transform-box:fill-box;transform-origin:center;animation:ecoGlow 4s ease-in-out infinite}
+@keyframes ecoGlow{0%,100%{opacity:.65;transform:scale(.85)}50%{opacity:1;transform:scale(1.25)}}
+.eco-hint{text-align:center;font-size:13px;color:#6b7c85;margin:10px 0 0}
+/* entrance */
+.anim .eco-diagram .eco-c circle{transition:transform .9s cubic-bezier(.2,.8,.2,1) calc(.25s + var(--i)*.3s),opacity .9s calc(.25s + var(--i)*.3s),stroke .4s}
+.anim .eco-diagram:not(.in) .eco-c circle{transform:scale(.2);opacity:0}
+.anim .eco-diagram .eco-l,.anim .eco-diagram .eco-cap,.anim .eco-diagram .eco-ring-text{transition:opacity .8s 1.2s}
+.anim .eco-diagram .eco-cap{transition-delay:calc(1.4s + var(--i)*.15s)}
+.anim .eco-diagram:not(.in) .eco-l,.anim .eco-diagram:not(.in) .eco-cap,.anim .eco-diagram:not(.in) .eco-ring-text{opacity:0}
+.anim .eco-diagram .eco-ring{stroke-dasharray:1885;transition:stroke-dashoffset 1.6s ease,stroke .4s}
+.anim .eco-diagram:not(.in) .eco-ring{stroke-dashoffset:1885}
+@media(prefers-reduced-motion:reduce){.eco-spin,.eco-glow{animation:none}}
+@media(max-width:640px){.eco-diagram svg{width:150%;margin-left:-25%}.eco-cap,.eco-kw{display:none}.eco-name{font-size:33px}.eco-ring-text{font-size:17px;letter-spacing:2px}}
