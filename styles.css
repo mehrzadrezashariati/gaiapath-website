@@ -1,0 +1,248 @@
+/* Self-hosted Google Fonts (DM Sans, Manrope; latin + latin-ext) */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-ext-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-ext-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-ext-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-ext-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/DMSans-latin-rP2Yp2yw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-ext-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-ext-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-ext-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-ext-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-ext-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-latin-xn7gYHE4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root{--navy:#11273b;--deep:#0b1c2e;--blue:#2e657b;--teal:#317c83;--paper:#f5f6f3;--ink:#192b37;--muted:#60717d;--line:#e0e6e5;--accent:#b3d5cb}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;font-family:'DM Sans',sans-serif;color:var(--ink);background:#fff}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-.052em;line-height:1.12}h2{font-size:clamp(32px,4.1vw,58px);font-weight:600}h2 em,h1 em{font-style:normal;color:#8bbfb4}a{color:inherit;text-decoration:none}button,select,textarea{font:inherit}button{cursor:pointer}.container{max-width:1200px;margin:0 auto;padding-left:34px;padding-right:34px}.section{position:relative}.site-header{height:83px;display:flex;align-items:center;justify-content:space-between;padding:0 max(34px,calc((100vw - 1132px)/2));background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 1px 0 rgba(10,38,50,.08)}.brand{display:flex;align-items:center;gap:11px;line-height:1;font-family:Manrope,sans-serif;font-size:20px;letter-spacing:.05em;font-weight:500;color:#152c43}.brand b{font-weight:800}.brand small{display:block;font-size:8px;letter-spacing:.19em;margin-top:6px;color:#799099;font-weight:700}.brand-mark{width:39px;height:39px;display:grid;place-items:center;border:1.5px solid #2f6b77;font-size:23px;font-weight:800;color:#246376}.brand-mark span{color:#be9271}.desktop-nav{display:flex;gap:29px;align-items:center}.desktop-nav a{font-size:12px;font-weight:700;color:#455d6c;transition:color .2s}.desktop-nav a:hover,.text-link:hover{color:#277e85}.nav-actions{display:flex;align-items:center;gap:13px}.language{background:transparent;border:0;font-size:12px;font-weight:800;color:#2d5363;padding:12px}.nav-cta{background:#163349;color:white;padding:14px 18px;font-size:12px;font-weight:700}.nav-cta span{margin-left:10px;color:#a2d6c8}.menu-toggle,.mobile-nav{display:none}.hero{background:linear-gradient(116deg,#092035 4%,#122d43 55%,#1b4550);color:white;min-height:666px;overflow:hidden}.hero-inner{padding-top:108px;padding-bottom:47px;position:relative;z-index:2}.eyebrow{font-weight:800;font-size:11px;letter-spacing:.17em;color:#3b7f84;text-transform:uppercase}.eyebrow.light{color:#a4c9c7}.dot{display:inline-block;border-radius:50%;width:7px;height:7px;background:#b0d4c6;margin-right:10px}.hero h1{font-size:clamp(52px,6.5vw,92px);max-width:900px;margin:26px 0 27px;font-weight:600;line-height:1.08}.hero-lede{max-width:530px;font-size:17px;line-height:1.85;color:#c8d8e3}.hero-buttons{display:flex;gap:14px;margin-top:33px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:35px;padding:16px 21px;font-size:13px;font-weight:800;border:1px solid transparent;transition:transform .2s}.btn:hover{transform:translateY(-2px)}.btn-light{background:#e2eee8;color:#173849}.btn-outline{border-color:#7d929b;color:#fff;background:transparent}.btn-dark{background:#133044;color:white;width:100%}.hero-footer{display:flex;gap:25px;color:#b8c9d2;font-size:11px;letter-spacing:.08em;margin-top:101px}.hero-decor{position:absolute;right:-125px;top:18px;width:700px;height:700px;opacity:.5}.ring{position:absolute;border:1px solid rgba(158,220,217,.25);border-radius:50%}.r1{inset:0}.r2{inset:85px}.r3{inset:185px}.ring-symbol{position:absolute;top:210px;left:240px;color:#b0d7ce;font-family:Manrope;font-weight:700;font-size:170px;opacity:.1}.intro{padding-top:122px;padding-bottom:120px;display:grid;grid-template-columns:1.2fr .8fr;gap:12%}.intro h2{font-size:clamp(32px,3.6vw,53px);max-width:650px;margin:21px 0 0}.intro h2 em,.services h2 em,.areas h2 em,.approach h2 em,.about h2 em{color:#538d8b}.intro-side{padding-top:57px}.intro-side p{font-size:15px;color:#516575;line-height:1.95}.text-link{display:inline-block;margin-top:15px;border-bottom:1px solid #589292;padding-bottom:8px;font-weight:800;font-size:12px}.ecosystem{background:var(--paper);padding:104px 0 106px}.center-heading{text-align:center;max-width:760px;margin:auto}.center-heading h2{margin:19px 0 25px}.center-heading>p:last-child{font-size:15px;line-height:1.85;color:#596c75}.ecosystem-visual{max-width:920px;margin:38px auto 31px;background:white;border-radius:3px;border:1px solid #e5ecea;box-shadow:0 18px 50px rgba(22,52,65,.07)}.ecosystem-visual img{width:100%;display:block}.ecosystem-tabs{display:flex;gap:9px;justify-content:center;flex-wrap:wrap}.tab{padding:12px 25px;background:white;border:1px solid #cad9d8;font-size:12px;color:#28516b;font-weight:700}.tab.active{background:#193b4d;color:white;border-color:#193b4d}.tab-panel{background:white;border:1px solid #e4eae9;padding:30px 36px;max-width:920px;margin:12px auto 0;min-height:128px;display:grid;grid-template-columns:190px 1fr;gap:24px;align-items:start}.tab-panel h3{font-size:22px;margin:0}.tab-panel p{color:#596d76;font-size:14px;line-height:1.85;margin:0}.caveat{color:#76858d;font-size:11px;text-align:center;margin-top:18px}.services{padding-top:117px;padding-bottom:117px}.section-top{display:flex;justify-content:space-between;align-items:end;gap:9%;margin-bottom:50px}.section-top h2{margin:18px 0 0}.section-aside{max-width:350px;color:#5e737c;line-height:1.9;font-size:14px;margin:0 0 6px}.service-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.service-card{padding:35px 34px 30px;background:#f6f8f7;min-height:310px;border-top:3px solid #75a4a0;transition:transform .2s,box-shadow .2s}.service-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #15334510}.service-num{color:#3a858b;font-size:12px;font-weight:800;letter-spacing:.1em}.service-card h3{font-size:25px;margin:36px 0 16px;max-width:370px}.service-card p{font-size:14px;line-height:1.85;color:#596e79}.service-result{font-size:12px;color:#235b62;font-weight:800;margin-top:25px}.areas{background:#eaf0ed;padding:113px 0}.area-list{border-top:1px solid #cad9d6}.area-row{display:grid;grid-template-columns:64px 1fr 1fr 30px;gap:25px;padding:27px 0;align-items:center;border-bottom:1px solid #cad9d6}.area-row .number{color:#618b8c;font-weight:800;font-size:13px}.area-row h3{font-size:20px;letter-spacing:-.04em;margin:0}.area-row p{color:#5a6d77;font-size:13px;line-height:1.7;margin:0}.area-row .arrow{font-size:20px;color:#548e8a}.approach{padding-top:120px;padding-bottom:110px}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.step{border-top:2px solid #357f84;padding:22px 8px 0 0}.step .step-number{font-size:12px;font-weight:800;color:#398a8e}.step h3{font-size:19px;margin:24px 0 12px}.step p{font-size:13px;line-height:1.8;color:#60717a}.approach-note{background:#edf3f0;display:flex;gap:25px;align-items:center;padding:24px 30px;margin-top:60px}.approach-note p{margin:0;color:#4a646d;font-size:13px;line-height:1.8}.asterisk{font-size:36px;color:#408d89}.perspective{background:#143449;color:white;padding:100px 0 104px}.perspective-inner{max-width:1030px}.perspective h2{font-size:clamp(33px,4.2vw,58px);font-weight:500;line-height:1.35;max-width:930px;margin:26px 0 32px}.about{display:grid;grid-template-columns:1fr 1fr;gap:9%;padding-top:118px;padding-bottom:118px;align-items:center}.about-picture{position:relative;min-height:490px;overflow:hidden;background:#dce4df}.about-picture img{width:100%;height:530px;object-fit:cover;object-position:63% center;display:block}.photo-tag{position:absolute;bottom:0;left:0;right:0;background:rgba(10,37,51,.83);color:white;padding:18px 22px;font-size:12px}.about-copy h2{margin:20px 0 29px}.about-copy p:not(.eyebrow){font-size:14px;line-height:1.93;color:#5b6c75}.founder-signature{font-family:Manrope;font-weight:800;margin-top:29px;color:#1e3d4a}.founder-signature small{display:block;font-family:'DM Sans';font-size:11px;color:#77878e;margin-top:8px;font-weight:500}.contact{background:#103045;color:white;padding:113px 0}.contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:12%}.contact h2{font-size:clamp(34px,4vw,57px);margin:24px 0}.contact h2 em{color:#9ac9bf}.contact p:not(.eyebrow){line-height:1.85;color:#c4d5dd;font-size:15px}.email-link{display:inline-block;color:#b8e0d4;border-bottom:1px solid #8bcabb;font-size:19px;font-weight:700;padding-bottom:10px;margin-top:23px}.challenge-card{background:#f6f9f7;color:#213848;padding:35px}.challenge-card label{font-size:12px;font-weight:800;display:block;margin-bottom:10px}.challenge-card select,.challenge-card textarea{border:1px solid #ccdbd8;background:white;width:100%;padding:15px;font-size:13px;color:#263f4b;outline-color:#3e898b;margin-bottom:25px}.challenge-card textarea{resize:vertical}.challenge-card .form-note{font-size:11px!important;line-height:1.6!important;color:#7b8a8d!important;margin:16px 0 0}footer{background:#081e30;color:white}.footer-top{padding-top:62px;padding-bottom:60px;display:flex;justify-content:space-between}.footer-brand{font-family:Manrope;font-size:27px;letter-spacing:.06em}.footer-top p{font-size:13px;color:#9bb0bc;line-height:1.7;margin-top:19px}.footer-links{display:grid;grid-template-columns:1fr 1fr;gap:17px 45px;align-content:start;font-size:12px;color:#b0c2cc}.footer-bottom{border-top:1px solid #2a4655;padding-top:25px;padding-bottom:30px;display:flex;gap:25px;justify-content:space-between;color:#8fa9b4;font-size:10px}
+@media(max-width:1000px){.desktop-nav{gap:13px}.desktop-nav a{font-size:11px}.hero-decor{right:-280px}.steps{grid-template-columns:repeat(3,1fr)}}@media(max-width:760px){.container{padding-left:22px;padding-right:22px}.site-header{padding:0 20px;height:70px}.desktop-nav,.nav-cta{display:none}.menu-toggle{display:block;border:0;background:transparent;font-size:23px;color:#1a3c50}.mobile-nav.show{display:flex}.mobile-nav{position:sticky;top:70px;z-index:19;background:white;box-shadow:0 9px 20px #1232;flex-direction:column;padding:10px 24px 20px;gap:14px;font-size:13px;font-weight:800}.hero{min-height:auto}.hero-inner{padding-top:88px;padding-bottom:50px}.hero h1{font-size:clamp(48px,10vw,70px)}.hero-decor{opacity:.22;right:-420px}.hero-footer{margin-top:72px;gap:12px;flex-wrap:wrap}.intro,.about,.contact-inner{grid-template-columns:1fr;gap:36px}.intro{padding-top:82px;padding-bottom:80px}.intro-side{padding-top:0}.ecosystem,.services,.areas,.approach,.contact{padding-top:82px;padding-bottom:82px}.tab-panel{grid-template-columns:1fr;gap:8px;padding:23px}.section-top{display:block}.section-aside{margin-top:25px}.service-grid{grid-template-columns:1fr}.area-row{grid-template-columns:30px 1fr 25px;gap:12px}.area-row p{grid-column:2;grid-row:2}.area-row .arrow{grid-column:3;grid-row:1}.steps{grid-template-columns:1fr 1fr}.about{padding-top:82px;padding-bottom:82px}.about-picture{min-height:unset}.about-picture img{height:400px}.perspective{padding-top:79px;padding-bottom:79px}.footer-top,.footer-bottom{flex-direction:column;gap:20px}.footer-links{margin-top:14px}.challenge-card{padding:25px}.ecosystem-visual{margin-left:-12px;margin-right:-12px}}@media(max-width:430px){.steps{grid-template-columns:1fr}.step h3{margin-top:12px}.hero-buttons{flex-direction:column;align-items:stretch}.hero h1{font-size:44px}.brand{font-size:17px}}
+
+/* Reusable editorial diagrams — also suitable for presentation export */
+.interactions{background:#fff;padding:110px 0}.interactions h2 em{color:#538d8b}.visual-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.visual-card{border:1px solid #dce6e4;background:#f6f9f8;overflow:hidden}.visual-card img{display:block;width:100%;height:290px;object-fit:contain;background:#f1f6f4}.visual-card-copy{padding:26px 28px 33px}.visual-card h3{font-size:24px;line-height:1.28;margin:15px 0}.visual-card p{color:#526976;font-size:14px;line-height:1.8}.golden-card{grid-column:1/-1;display:grid;grid-template-columns:1.12fr 1fr;align-items:center;background:#102c40;color:white}.golden-card img{height:100%;min-height:315px;background:#102c40}.golden-card .eyebrow{color:#d4b77b}.golden-card p{color:#d1dfe3}@media(max-width:760px){.interactions{padding:78px 0}.visual-grid{grid-template-columns:1fr}.golden-card{grid-column:auto;display:block}.golden-card img{min-height:unset;height:auto}.visual-card img{height:auto}.visual-card-copy{padding:23px}}
+
+/* Nature-Inspired Intelligence: GAIA PATH visual system v1.2 */
+:root{--accent:#d4a856;--gold:#d4a856;--paper:#f8f8f4}body{background:#fcfcfa}h1 em,h2 em{color:#d5ab65}.site-header{background:#f8f9f6f5;backdrop-filter:blur(17px)}.nav-cta{background:#c79953;color:#10283a;border-radius:5px}.nav-cta span{color:#10283a}
+.hero{background:linear-gradient(90deg,rgba(6,27,42,.97) 0%,rgba(8,32,47,.88) 39%,rgba(8,34,48,.30) 79%),url('assets/hero-nature.jpg') center center/cover no-repeat;min-height:675px}.hero .orb,.hero-decor{display:none!important}.hero-inner{padding-top:116px}.hero h1{max-width:780px}.hero h1 em{color:#deb979}.hero-lede{max-width:615px}.hero .btn-light{background:#dbb677;color:#102739}.hero .btn-outline{border-color:#e5d4b7}.hero-footer{border-top-color:#d7b87a50}.nature-route{pointer-events:none;position:absolute;width:42vw;right:3vw;top:40%;opacity:.85}.nature-route svg{width:100%;height:220px;filter:drop-shadow(0 0 5px #e5c27d)}.nature-route circle{fill:#f6d38c;stroke:white;stroke-width:2}.eyebrow{color:#a67c40}.eyebrow.light{color:#e8cf9a}.dot{background:#dfb46e}.intro{background:#fcfcfa}.ecosystem{background:#f1f4f1}.nature-ecosystem-story{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:40px 0 20px}.nature-ecosystem-story article{height:230px;position:relative;overflow:hidden}.nature-ecosystem-story img{height:100%;width:100%;object-fit:cover;filter:saturate(.87)}.nature-ecosystem-story article:after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 38%,#061d30ac)}.nature-ecosystem-story span{position:absolute;bottom:24px;left:24px;color:white;z-index:1;font-family:Manrope,sans-serif;font-size:17px;font-weight:800;letter-spacing:.13em}.ecosystem-visual{background:white;border:1px solid #dce3de;padding:15px}.ecosystem-tabs .tab.active{border-color:#b98d50;color:#926c37}.interactions{background:#fcfcfa}.visual-card{border-color:#dedfd5;background:#f6f6f0}.visual-card img{background:#e9eee9}.golden-card{background:#0d2636}.golden-card img{background:#0d2636}.nature-services .service-card{overflow:hidden;padding-top:0}.nature-services .service-photo{height:133px;margin:0 -1px 22px;background-size:cover;background-position:center}.service-photo-01{background-image:url('assets/service-1.jpg')}.service-photo-02{background-image:url('assets/service-2.jpg')}.service-photo-03{background-image:url('assets/service-3.jpg')}.service-photo-04{background-image:url('assets/service-4.jpg')}.perspective{background:linear-gradient(90deg,#071f33e8,#10283bc9),url('assets/hero-nature.jpg') center/cover}.about{background:#fcfcfa}.btn-light{background:#ddb879;color:#102536}.contact{background:#f1f3ee}
+@media(max-width:760px){.hero{background-position:57% center}.hero-inner{padding-top:80px}.nature-route{opacity:.4;width:82vw;right:0;top:52%}.nature-ecosystem-story{gap:4px}.nature-ecosystem-story article{height:160px}.nature-ecosystem-story span{font-size:10px;left:9px;bottom:12px;letter-spacing:.04em}.nature-services .service-photo{height:180px}}
+
+.founder-editorial-link{display:flex;align-items:center;gap:16px;padding:22px;margin-top:28px;border-top:1px solid #c9d8d4;border-bottom:1px solid #c9d8d4;color:#193e4a;transition:background .2s}.founder-editorial-link:hover{background:#edf3ee}.founder-editorial-link strong{display:block;font-family:Manrope,sans-serif;font-size:18px;margin-bottom:6px}.founder-editorial-link small{display:block;font-size:12px;color:#647881;line-height:1.6}.founder-editorial-link>span:last-child{margin-left:auto;font-size:22px;color:#af8244}.founder-editorial-symbol{font-size:27px;color:#bc8b45}.about-landscape img{object-position:75% center}.editorial-page{background:#fafaf7;color:#1b3546}.editorial-hero{min-height:460px;background:linear-gradient(90deg,#0a2436eb,#102c3b72),url('assets/hero-nature.jpg') center/cover;display:flex;align-items:end;color:white;padding:80px 0 60px}.editorial-hero h1{font-size:clamp(39px,6vw,75px);max-width:820px;letter-spacing:-.055em;margin:18px 0}.editorial-story{max-width:1100px;margin:0 auto;padding:90px 34px 110px;display:grid;grid-template-columns:minmax(220px,360px) minmax(0,1fr);gap:10%;align-items:start}.editorial-profile{position:sticky;top:110px}.editorial-profile img{width:100%;height:415px;object-fit:cover;object-position:center;display:block}.editorial-profile h2{font-size:24px;margin:19px 0 5px}.editorial-profile p{font-size:13px;color:#667782}.editorial-prose p{font-size:17px;line-height:1.95;color:#3f5865;margin-bottom:26px}.editorial-prose p.lead{font-size:24px;line-height:1.55;color:#173347;font-family:Manrope,sans-serif}.editorial-prose blockquote{font-size:clamp(24px,3vw,37px);line-height:1.35;letter-spacing:-.04em;border-left:3px solid #c29a5b;padding:4px 0 4px 25px;margin:38px 0;color:#16354a;font-family:Manrope,sans-serif}.editorial-back{display:inline-block;margin-top:22px;border-bottom:1px solid #af8c59;padding-bottom:7px;font-size:13px;font-weight:700}.editorial-language{background:#183347;color:white;border:1px solid #6c8d93;padding:10px 15px;border-radius:2px}.editorial-head{position:absolute;top:0;left:0;right:0;padding:23px max(34px,calc((100vw - 1132px)/2));display:flex;align-items:center;justify-content:space-between;z-index:2}.editorial-head a{color:white;font-weight:800;letter-spacing:.11em}.editorial-head small{display:block;font-size:9px;letter-spacing:.15em;margin-top:4px;font-weight:500}.editorial-hero{position:relative}@media(max-width:760px){.editorial-story{grid-template-columns:1fr;padding:55px 22px;gap:34px}.editorial-profile{position:static;max-width:360px}.editorial-profile img{height:320px}.editorial-hero{min-height:425px}.editorial-head{padding:20px 22px}}
+
+/* Show images uncropped: ecosystem cards keep their full frame, founder photo centred on the person */
+.nature-ecosystem-story article,.nature-ecosystem-story article:nth-child(n){height:auto;aspect-ratio:500/221}
+.nature-ecosystem-story img{object-fit:cover;object-position:center top}
+.editorial-profile img{height:auto;aspect-ratio:4/5;object-position:73% 20%}
+.nature-ecosystem-story span,.nature-ecosystem-story article:after{display:none}
+
+/* v2 content: problem tiles, decision cycle, AI capabilities, use cases, principles */
+.problem-wrap{padding-bottom:110px}
+.problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.problem-card{background:#f3f6f5;border-top:3px solid #d1a654;padding:28px 30px}
+.problem-card h3{font-size:22px;margin:18px 0 10px}
+.problem-card p{margin:0;color:#596e79;font-size:14px;line-height:1.8}
+.problem-card .step-number{font-size:12px;font-weight:800;color:#b98d50}
+.cycle-path{height:44px;margin:0 0 -6px}.cycle-path svg{width:100%;height:100%;display:block}
+.capabilities{background:#f3f6f5}
+.capabilities h2 em,.principles h2 em{color:#538d8b}
+.cap-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.cap-card{background:white;padding:30px 26px;border-top:3px solid #75a4a0;min-height:220px}
+.cap-card h3{font-size:21px;margin:26px 0 12px}
+.cap-card p{margin:0;font-size:14px;line-height:1.8;color:#596e79}
+.use-tabs{justify-content:flex-start;margin-bottom:22px}
+.principles{background:#102c40;color:white}
+.principles h2{font-size:clamp(32px,3.6vw,53px);margin:18px 0 50px}
+.principles h2 em{color:#dbb677}
+.prin-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.principle{border-top:1px solid #ffffff33;padding-top:22px}
+.principle .asterisk{color:#dbb677}
+.principle h3{font-size:19px;margin:16px 0 10px;color:white}
+.principle p{margin:0;color:#c3d3da;font-size:14px;line-height:1.8}
+@media(max-width:1000px){.cap-grid,.prin-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.problem-grid,.cap-grid,.prin-grid{grid-template-columns:1fr}.problem-wrap{padding-bottom:70px}.cycle-path{display:none}}
+.contact{background:linear-gradient(116deg,#092035 4%,#122d43 55%,#1b4550)}.contact p{color:#c3d3da}
+
+/* Founder page: whole landscape photo, smaller, essay below */
+.editorial-story,.editorial-story:nth-child(n){display:block;max-width:760px;padding-top:70px}
+.editorial-profile{position:static;max-width:640px;margin:0 auto 56px;text-align:center}
+.editorial-profile img,.editorial-profile img:nth-child(n){width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border-radius:3px}
+.nature-ecosystem-story article:first-child img{object-position:center 20%}
+.nature-ecosystem-story article:nth-child(2) img{object-position:center 55%}
+/* All three ecosystem images are new 3:2 photos without baked-in text: show labels as real text */
+.nature-ecosystem-story article,.nature-ecosystem-story article:nth-child(n){aspect-ratio:3/2}
+.nature-ecosystem-story article:first-child img{object-position:center 30%}
+.nature-ecosystem-story span{display:block;text-transform:uppercase}
+.nature-ecosystem-story article:after{display:block}
+/* New full-size service photos: show them larger */
+.nature-services .service-photo{height:auto;aspect-ratio:16/9;margin:0 -34px 22px}
+@media(max-width:760px){.nature-services .service-photo{margin-left:-23px;margin-right:-23px}}
+
+/* Greek glyphs (Manrope) for the founder name */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-greek.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-greek.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-greek.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-greek.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/Manrope-greek.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
