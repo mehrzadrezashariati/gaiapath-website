@@ -397,3 +397,10 @@
 .desktop-nav a{white-space:nowrap}
 @media(max-width:1180px){.desktop-nav{display:none}.menu-toggle{display:block}.mobile-nav{top:84px}.mobile-nav.show{display:flex}}
 @media(max-width:760px){.mobile-nav{top:70px}}
+/* bigger circle */
+.ecosystem-visual#circle{max-width:1180px}
+.eco-diagram svg{max-height:calc(100vh - 150px);min-height:420px}
+@media(max-width:640px){.eco-diagram svg{width:160%;margin-left:-30%;min-height:0;max-height:none}}
+.eco-name{font-size:32px}
+.eco-kw{font-size:12px;letter-spacing:1.8px}
+@media(max-width:640px){.eco-name{font-size:31px}}
