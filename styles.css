@@ -404,3 +404,17 @@
 .eco-name{font-size:32px}
 .eco-kw{font-size:12px;letter-spacing:1.8px}
 @media(max-width:640px){.eco-name{font-size:31px}}
+/* language switch with flags */
+.lang-switch{display:inline-flex;align-items:center;gap:2px;padding:3px;border:1px solid #d8e1e3;border-radius:20px;background:rgba(255,255,255,.6)}
+.lang-switch button{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;border-radius:16px;padding:6px 10px;font:800 11.5px 'DM Sans',sans-serif;letter-spacing:.06em;color:#5b707c;cursor:pointer;transition:background .25s,color .25s}
+.lang-switch button:hover{color:#11273b}
+.lang-switch button.on{background:#11273b;color:#fff}
+.lang-switch button:focus-visible{outline:2px solid #d1a654;outline-offset:1px}
+.lang-switch .flag{width:20px;height:13px;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);flex:none;display:block}
+.language.lang-switch{padding:3px}
+.editorial-language.lang-switch{background:rgba(255,255,255,.08);border-color:#6c8d93;padding:3px}
+.editorial-language.lang-switch button{color:#c9d7dc}
+.editorial-language.lang-switch button.on{background:#fff;color:#11273b}
+@media(max-width:760px){.lang-switch button{padding:6px 7px}.lang-switch button span{display:none}}
+.brand{white-space:nowrap}
+@media(min-width:1181px){.desktop-nav{gap:18px}.lang-switch button{padding:5px 8px}}
