@@ -362,3 +362,15 @@
 @keyframes filmBar{to{transform:scaleX(1)}}
 @media(max-width:760px){.film-stage{height:78vh;min-height:460px}.film-slide figcaption,.film-ui{padding:0 22px}.film-slide figcaption{bottom:76px}}
 @media(prefers-reduced-motion:reduce){.film-slide.active img{animation:none}.film-bars button.run:before{animation:none;transform:scaleX(1)}}
+/* film as hero background */
+.hero{position:relative;background:#081a28!important}
+.hero-film .film-slide:after{content:"";display:block;position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(6,27,42,.94) 0%,rgba(8,32,47,.78) 40%,rgba(8,34,48,.18) 78%),linear-gradient(0deg,rgba(6,22,34,.75) 0%,rgba(6,22,34,0) 30%)}
+.hero-inner{position:relative;z-index:2;padding-bottom:120px}
+.hero-film{position:absolute;inset:0;z-index:0}
+.hero-film .film-stage{position:absolute;inset:0;height:auto;min-height:0}
+.hero-film .film-slide figcaption{z-index:3;left:auto;right:max(40px,calc((100vw - 1180px)/2 + 40px));bottom:84px;max-width:440px;padding:0;margin:0;text-align:right}
+.hero-film .film-cap{font-size:clamp(1.05rem,1.7vw,1.45rem);line-height:1.3}
+.hero-film .film-no{margin-bottom:8px}
+.hero-film .film-ui{z-index:4;bottom:32px}
+.hero-film .film-bars{max-width:none}
+@media(max-width:900px){.hero-film .film-slide figcaption{left:22px;right:22px;text-align:left;bottom:76px;max-width:none}.hero-film .film-slide:after{background:linear-gradient(0deg,rgba(6,22,34,.92) 0%,rgba(6,22,34,.55) 35%,rgba(6,27,42,.82) 100%)}.hero-inner{padding-bottom:170px}}
