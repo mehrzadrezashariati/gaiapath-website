@@ -506,3 +506,4 @@
 @media(prefers-reduced-motion:reduce){.xp *{animation:none!important}.xp-net animateMotion{display:none}}
 .anim .xp-card{opacity:0;transform:translateY(26px);transition:opacity .8s ease var(--stagger,0s),transform .8s cubic-bezier(.2,.7,.2,1) var(--stagger,0s)}
 .anim .xp-card.in:hover{transform:translateY(-6px)!important}
+.tower-more{margin-top:30px;width:auto}
