@@ -506,3 +506,12 @@
 @media(prefers-reduced-motion:reduce){.xp *{animation:none!important}.xp-net animateMotion{display:none}}
 .anim .xp-card{opacity:0;transform:translateY(26px);transition:opacity .8s ease var(--stagger,0s),transform .8s cubic-bezier(.2,.7,.2,1) var(--stagger,0s)}
 .anim .xp-card.in:hover{transform:translateY(-6px)!important}
+/* contact channels */
+.channels{list-style:none;margin:28px 0 8px;padding:0;display:grid;gap:12px}
+.channels li{display:grid;gap:2px;padding:14px 18px;border:1px solid rgba(139,202,187,.35);border-left:3px solid #8bcabb;background:rgba(255,255,255,.04)}
+.channels .ch-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#d1a654}
+.channels a{color:#fff;font-size:19px;font-weight:700;word-break:break-word}
+.channels a:hover{color:#b8e0d4}
+.channels small{font-size:13px;color:#c4d5dd;line-height:1.6}
+.channels .ch-support{border-left-color:#d1a654;background:rgba(209,166,84,.08)}
+.about-links{display:flex;flex-wrap:wrap;gap:12px 28px}
