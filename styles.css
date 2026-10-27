@@ -574,7 +574,7 @@
 .demo-open{margin:4px 0 0!important;font-size:13px!important;color:#3d5260!important;background:#fbf6ea;border-left:3px solid #d1a654;padding:8px 10px}
 .demo-open span{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#a07b33}
 .demo-opt.picked{border-top-color:#d1a654;box-shadow:0 20px 40px -24px rgba(209,166,84,.7);transform:translateY(-4px)}
-.demo-opt.dim{opacity:.5}
+.demo-opt.dim{filter:grayscale(.7) opacity(.5)}
 .demo-decide{background:#11273b;color:#fff;padding:clamp(20px,3vw,32px);border-radius:4px}
 .demo-decide .demo-step{color:#d1a654}
 .demo-choices{display:flex;flex-wrap:wrap;gap:10px}
@@ -588,3 +588,26 @@
 .demo-result .btn{margin-top:8px}
 @media(max-width:900px){.demo-lab{grid-template-columns:1fr}.demo-opts{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.demo *{animation:none!important}}
+.demo-fair{justify-self:start;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#2f7d5b;background:#e6f4ec;border:1px solid #b9dfc9;border-radius:999px;padding:3px 9px}
+.demo-sign{margin:18px 0 6px;padding-top:18px;border-top:1px solid rgba(255,255,255,.15);animation:demoIn .6s ease}
+.demo-parties{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.demo-party{position:relative;display:grid;gap:2px;padding:14px 16px;border:1px dashed rgba(255,255,255,.3);border-radius:4px;background:rgba(255,255,255,.04);transition:.4s}
+.demo-party svg{width:120px;height:40px}
+.demo-sig{fill:none;stroke:#f3d58f;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:260;stroke-dashoffset:260}
+.demo-party.signing .demo-sig{animation:demoSig 1.5s ease forwards}
+.demo-party.signed .demo-sig{stroke-dashoffset:0}
+@keyframes demoSig{to{stroke-dashoffset:0}}
+.demo-party b{color:#fff;font-size:15px}
+.demo-party small{color:#9fb3bc;font-size:12px}
+.demo-party.signing{border-color:#d1a654}
+.demo-party.signed{border-style:solid;border-color:#5fd38d;background:rgba(95,211,141,.08)}
+.demo-check{position:absolute;top:12px;right:14px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#5fd38d;color:#0d1f30;font-weight:800;transform:scale(0);transition:transform .4s cubic-bezier(.3,1.6,.5,1)}
+.demo-party.signed .demo-check{transform:scale(1)}
+.demo-flow{position:relative;margin-top:16px;padding:16px;border-radius:4px;background:rgba(209,166,84,.08);border:1px solid rgba(209,166,84,.3);animation:demoIn .6s ease}
+.demo-flow-title{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#d1a654;margin-bottom:12px}
+.demo-flow ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.demo-flow li{position:relative;font-size:13px;font-weight:600;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:6px 12px;animation:demoIn .5s ease both calc(var(--s)*.25s),demoPulse 3.75s ease-in-out infinite calc(var(--s)*.75s + 1.5s)}
+.demo-flow li+li:before{content:"→";position:absolute;left:-8px;top:50%;transform:translate(-50%,-50%);color:#d1a654;font-size:11px}
+@keyframes demoPulse{0%,20%{background:#d1a654;color:#11273b;border-color:#d1a654;box-shadow:0 0 16px rgba(209,166,84,.6)}30%,100%{background:transparent;color:#fff;border-color:rgba(255,255,255,.25);box-shadow:none}}
+.demo-done{margin:14px 0 4px!important;color:#e8eef0!important}
+@media(max-width:600px){.demo-parties{grid-template-columns:1fr}}
