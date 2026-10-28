@@ -639,3 +639,4 @@ body.routed [data-view]:not(.view-on){display:none!important}
 .explore-card small{font-size:14px;line-height:1.6;color:#5d717b}
 .explore-card .pub-more{margin-top:auto;color:#af8244;font-weight:700}
 body.routed section.view-first{padding-top:60px!important}body.routed #tower.view-first,body.routed #philosophy.view-first{padding-top:120px!important}
+@media print{.anim *{opacity:1!important;transform:none!important;transition:none!important}.site-header{position:static!important;box-shadow:none}.anim .cycle-path path,.anim .tower-visual .gate-line{stroke-dashoffset:0!important}}
