@@ -675,3 +675,20 @@ h2{font-size:clamp(36px,5.2vw,76px);hyphens:auto;-webkit-hyphens:auto;overflow-w
 .editorial-hero h1{font-size:clamp(40px,7vw,92px)}
 .legal h1{font-size:clamp(2.1rem,6vw,4.4rem)!important;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .legal h2{font-size:clamp(1.6rem,3.4vw,2.2rem)!important;hyphens:auto}
+
+/* Section headers v2: larger type, filled header row (2026-11-02) */
+h2{font-size:clamp(40px,6.4vw,100px);line-height:1.02}
+.intro h2,.principles h2,.contact h2,.perspective h2{font-size:clamp(38px,5.6vw,88px)}
+.section-top{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:56px;align-items:end;padding-bottom:40px;margin-bottom:56px;position:relative}
+.section-top:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,#c29a5b 0,#c29a5b 120px,#c9d8d4 120px,#c9d8d4 100%)}
+.section-top>div{min-width:0}
+.section-top h2{max-width:none;margin-bottom:0}
+.eyebrow{font-size:14px;display:flex;align-items:center;gap:14px}
+.eyebrow:before{content:"";width:34px;height:2px;background:currentColor;display:inline-block}
+.section-aside{font-size:18px;line-height:1.75;max-width:none;border-left:3px solid #c29a5b;padding:6px 0 6px 24px;margin:0}
+.xp .section-top:after,.principles .section-top:after,.contact .section-top:after{background:linear-gradient(90deg,#d1a654 0,#d1a654 120px,#ffffff22 120px,#ffffff22 100%)}
+@media(max-width:900px){.section-top{grid-template-columns:1fr;gap:26px;padding-bottom:30px}.section-aside{font-size:16px}}
+.section-top{grid-template-columns:1fr;gap:30px}
+.section-top h2{font-size:clamp(40px,6.4vw,96px)}
+.section-aside{justify-self:end;max-width:620px}
+@media(max-width:900px){.section-aside{justify-self:start}}
