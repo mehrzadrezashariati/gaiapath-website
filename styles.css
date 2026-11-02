@@ -692,3 +692,8 @@ h2{font-size:clamp(40px,6.4vw,100px);line-height:1.02}
 .section-top h2{font-size:clamp(40px,6.4vw,96px)}
 .section-aside{justify-self:end;max-width:620px}
 @media(max-width:900px){.section-aside{justify-self:start}}
+
+/* Visible links on legal pages (2026-11-02) */
+.legal a:not(.back):not(.legal-btn){color:#1f6f66;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.legal-btn{display:inline-block;margin-top:8px;padding:12px 22px;border-radius:999px;background:#c29a5b;color:#fff!important;text-decoration:none!important;font-weight:600}
+.legal-btn:hover{background:#a9824a}
