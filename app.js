@@ -42,6 +42,7 @@ services:[['01','Entscheidungen mit KI vorbereiten','Wie kann ein Team aus KI-Ag
 pgTag:'Fokusthema',pgJoin:'Mitdenken',pgNote:'GAIA PATH ist eine Initiative. Uns geht es um KI und darum, wie KI Menschen bei ihren Entscheidungen unterstützt, nicht um Verkauf. Das Center of Excellence ist offen, kostenfrei und noch im Aufbau. Wer mitdenken, Erfahrungen teilen oder eine Frage einbringen möchte, schreibt uns.',pgNoteCta:'Im Center of Excellence mitmachen →',
 principles:[['Verantwortung bleibt beim Menschen','Keine Entscheidung wird an eine Maschine abgegeben.'],['Transparenz','Jede Analyse zeigt ihre Quellen, Annahmen und Grenzen.'],['Unabhängigkeit','Wir verkaufen keine Software und sind an keinen Anbieter gebunden.'],['Datenschutz und Vertraulichkeit','Sensible Informationen bleiben geschützt, im Einklang mit DSGVO und EU AI Act.']]}};
 const pubs=[
+['The Case Against Your Own Theory','2026-11-09','article.html?a=the-case-against-your-own-theory'],
 ['When the System Falls Silent, Who Decides?','2026-10-28','article.html?a=when-the-system-falls-silent'],
 ['GAIA PATH — Where the Questions Become Practice','2026-10-23','article.html?a=gaia-path'],
 ['GAIA — Who Pays, Who Benefits — and When?','2026-10-12','https://www.linkedin.com/pulse/gaia-who-pays-benefits-when-mehrzad-shariati-8uaee/'],
