@@ -713,3 +713,38 @@ h2{font-size:clamp(40px,6.4vw,100px);line-height:1.02}
 @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/nunito-700.woff2) format('woff2')}
 .brand,.editorial-head a.lockup,.footer-brand{font-family:Nunito,Manrope,sans-serif}
 .brand small,.editorial-head a.lockup small,.footer-brand small{font-family:Nunito,Manrope,sans-serif}
+/* demo start button */
+.demo-go{--g:#cc9f22;--n:#0e2a4e;font:inherit;border:0;cursor:pointer;justify-self:start;display:inline-flex;align-items:center;gap:16px;text-align:left;margin-top:8px;transition:transform .25s,box-shadow .25s,background .25s}
+.demo-go .go-txt{display:grid;gap:3px}
+.demo-go .go-txt b{font-family:Nunito,Manrope,sans-serif;font-weight:800;font-size:19px;letter-spacing:.01em}
+.demo-go .go-txt small{font-size:13px;font-weight:500;opacity:.85}
+.demo-go .go-icon{flex:none;display:grid;place-items:center;border-radius:50%;position:relative}
+.demo-go .go-icon svg{width:22px;height:22px;fill:currentColor;margin-left:3px}
+.demo-go .go-agents{display:none}
+.demo-go:focus-visible{outline:3px solid var(--g);outline-offset:4px}
+@keyframes goRing{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.9);opacity:0}}
+@keyframes goDot{0%,100%{background:rgba(255,255,255,.18);box-shadow:none}25%{background:var(--g);box-shadow:0 0 10px var(--g)}}
+/* B: agent bar */
+.go-b{justify-self:stretch;background:linear-gradient(110deg,var(--n) 0%,#163d66 100%);color:#fff;border-radius:14px;padding:16px 26px 16px 16px;box-shadow:0 22px 40px -24px rgba(14,42,78,.9);border-left:5px solid var(--g)}
+.go-b .go-icon{width:58px;height:58px;background:var(--g);color:var(--n)}
+.go-b .go-icon:after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--g);animation:goRing 2s ease-out infinite}
+.go-b .go-txt small{color:#e9d9a8}
+.go-b .go-agents{display:flex;gap:9px;margin-left:auto;padding-left:16px}
+.go-b .go-agents i{width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,.18);animation:goDot 2.4s infinite}
+.go-b .go-agents i:nth-child(2){animation-delay:.6s}.go-b .go-agents i:nth-child(3){animation-delay:1.2s}.go-b .go-agents i:nth-child(4){animation-delay:1.8s}
+.go-b:hover{transform:translateY(-3px);box-shadow:0 28px 46px -24px rgba(14,42,78,1)}
+/* after a run: calmer */
+.demo-go.again{animation:none}
+.demo-go.again .go-icon:before,.demo-go.again .go-icon:after{display:none}
+.demo-go.again .go-agents i{animation:none}
+@media(max-width:640px){.demo-go{justify-self:stretch}.go-b .go-agents{display:none}.demo-go .go-txt b{font-size:18px}}
+@media(prefers-reduced-motion:reduce){.demo-go,.demo-go *,.demo-go .go-icon:before,.demo-go .go-icon:after{animation:none!important}}
+/* human layer in demo results */
+.demo-story{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;align-items:start;background:#fff;border-radius:14px;padding:22px 26px;box-shadow:0 20px 44px -34px rgba(14,42,78,.6);border:1px solid #efe6cf}
+.demo-story:before{content:"“";grid-row:1/3;font-family:Nunito,Manrope,sans-serif;font-weight:800;font-size:64px;line-height:.8;color:#cc9f22}
+.demo-story span{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#a07b33}
+.demo-story p{margin:0;font-size:clamp(16px,1.6vw,19px);line-height:1.6;color:#0e2a4e;font-weight:500}
+.demo-people{margin:4px 0 0!important;font-size:14px!important;line-height:1.55!important;color:#0e2a4e!important;background:#eef4f6;border-radius:10px;padding:10px 12px 10px 40px;position:relative}
+.demo-people:before{content:"";position:absolute;left:12px;top:12px;width:18px;height:18px;background:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230e2a4e'%3E%3Ccircle cx='8' cy='7' r='3.2'/%3E%3Ccircle cx='16.5' cy='8' r='2.6'/%3E%3Cpath d='M1.5 20c0-4 2.9-6.5 6.5-6.5s6.5 2.5 6.5 6.5z'/%3E%3Cpath d='M15.5 20c0-2-.5-3.7-1.6-5 .8-.4 1.6-.6 2.6-.6 3 0 5.5 2 5.5 5.6z' opacity='.7'/%3E%3C/svg%3E")}
+.demo-people span{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#2e657b;margin-bottom:2px}
+@media(max-width:640px){.demo-story{grid-template-columns:1fr;padding:18px}.demo-story:before{grid-row:auto;font-size:48px}}
