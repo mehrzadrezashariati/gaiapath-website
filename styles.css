@@ -713,7 +713,7 @@ h2{font-size:clamp(40px,6.4vw,100px);line-height:1.02}
 @font-face{font-family:'Nunito';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/nunito-700.woff2) format('woff2')}
 .brand,.editorial-head a.lockup,.footer-brand{font-family:Nunito,Manrope,sans-serif}
 .brand small,.editorial-head a.lockup small,.footer-brand small{font-family:Nunito,Manrope,sans-serif}
-/* demo start button (3 styles: ?go=a|b|c) */
+/* demo start button */
 .demo-go{--g:#cc9f22;--n:#0e2a4e;font:inherit;border:0;cursor:pointer;justify-self:start;display:inline-flex;align-items:center;gap:16px;text-align:left;margin-top:8px;transition:transform .25s,box-shadow .25s,background .25s}
 .demo-go .go-txt{display:grid;gap:3px}
 .demo-go .go-txt b{font-family:Nunito,Manrope,sans-serif;font-weight:800;font-size:19px;letter-spacing:.01em}
@@ -722,13 +722,8 @@ h2{font-size:clamp(40px,6.4vw,100px);line-height:1.02}
 .demo-go .go-icon svg{width:22px;height:22px;fill:currentColor;margin-left:3px}
 .demo-go .go-agents{display:none}
 .demo-go:focus-visible{outline:3px solid var(--g);outline-offset:4px}
-@keyframes goPulse{0%{box-shadow:0 0 0 0 rgba(204,159,34,.55)}70%{box-shadow:0 0 0 18px rgba(204,159,34,0)}100%{box-shadow:0 0 0 0 rgba(204,159,34,0)}}
 @keyframes goRing{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.9);opacity:0}}
 @keyframes goDot{0%,100%{background:rgba(255,255,255,.18);box-shadow:none}25%{background:var(--g);box-shadow:0 0 10px var(--g)}}
-/* A: gold pill */
-.go-a{background:var(--g);color:var(--n);border-radius:999px;padding:10px 30px 10px 10px;box-shadow:0 14px 30px -14px rgba(204,159,34,.9);animation:goPulse 2.4s infinite}
-.go-a .go-icon{width:52px;height:52px;background:var(--n);color:var(--g)}
-.go-a:hover{transform:translateY(-3px);background:#d9ad33;box-shadow:0 20px 36px -14px rgba(204,159,34,1)}
 /* B: agent bar */
 .go-b{justify-self:stretch;background:linear-gradient(110deg,var(--n) 0%,#163d66 100%);color:#fff;border-radius:14px;padding:16px 26px 16px 16px;box-shadow:0 22px 40px -24px rgba(14,42,78,.9);border-left:5px solid var(--g)}
 .go-b .go-icon{width:58px;height:58px;background:var(--g);color:var(--n)}
@@ -738,20 +733,11 @@ h2{font-size:clamp(40px,6.4vw,100px);line-height:1.02}
 .go-b .go-agents i{width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,.18);animation:goDot 2.4s infinite}
 .go-b .go-agents i:nth-child(2){animation-delay:.6s}.go-b .go-agents i:nth-child(3){animation-delay:1.2s}.go-b .go-agents i:nth-child(4){animation-delay:1.8s}
 .go-b:hover{transform:translateY(-3px);box-shadow:0 28px 46px -24px rgba(14,42,78,1)}
-/* C: big play circle */
-.go-c{background:none;color:var(--n);padding:6px 0;gap:22px}
-.go-c .go-icon{width:76px;height:76px;background:var(--g);color:#fff;box-shadow:0 14px 28px -12px rgba(204,159,34,.95)}
-.go-c .go-icon svg{width:30px;height:30px}
-.go-c .go-icon:before,.go-c .go-icon:after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--g);animation:goRing 2.4s ease-out infinite}
-.go-c .go-icon:after{animation-delay:1.2s}
-.go-c .go-txt b{font-size:24px;border-bottom:2px solid var(--g);padding-bottom:4px;justify-self:start}
-.go-c .go-txt small{color:#5d6f7a;opacity:1}
-.go-c:hover .go-icon{transform:scale(1.07)}.go-c .go-icon{transition:transform .25s}
 /* after a run: calmer */
 .demo-go.again{animation:none}
 .demo-go.again .go-icon:before,.demo-go.again .go-icon:after{display:none}
 .demo-go.again .go-agents i{animation:none}
-@media(max-width:640px){.demo-go{justify-self:stretch}.go-a{padding-right:20px}.go-b .go-agents{display:none}.demo-go .go-txt b{font-size:18px}.go-c .go-icon{width:64px;height:64px}.go-c .go-txt b{font-size:21px}}
+@media(max-width:640px){.demo-go{justify-self:stretch}.go-b .go-agents{display:none}.demo-go .go-txt b{font-size:18px}}
 @media(prefers-reduced-motion:reduce){.demo-go,.demo-go *,.demo-go .go-icon:before,.demo-go .go-icon:after{animation:none!important}}
 /* human layer in demo results */
 .demo-story{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;align-items:start;background:#fff;border-radius:14px;padding:22px 26px;box-shadow:0 20px 44px -34px rgba(14,42,78,.6);border:1px solid #efe6cf}
