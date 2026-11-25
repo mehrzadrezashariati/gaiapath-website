@@ -4,6 +4,7 @@ let lang='de';
 try{const s=localStorage.getItem('gaia_lang');if(s==='en'||s==='de')lang=s}catch(_){}
 if(q.get('lang')==='en'||q.get('lang')==='de')lang=q.get('lang');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const NAV={de:{navServices:'Center of Excellence',navExample:'Beispiel',navCircle:'GAIA Circle',navPubs:'Publikationen',navAbout:'Über uns',navCycle:'Vorgehen',navUse:'Anwendungen',navContact:'Kontakt'},en:{navServices:'Center of Excellence',navExample:'Example',navCircle:'GAIA Circle',navPubs:'Publications',navAbout:'About',navCycle:'Approach',navUse:'Use cases',navContact:"Let's talk"}};
 const T={
 de:{
 title:'Carrier Tower – KI-gestützte Bewerbungsunterlagen · GAIA PATH',
@@ -150,6 +151,7 @@ function draw(){
 const c=T[lang];document.documentElement.lang=lang;document.title=c.title;
 document.querySelectorAll('[data-t]').forEach(el=>{const v=c[el.dataset.t];if(v!=null)el.innerHTML=v});
 document.getElementById('ctBack').textContent=c.back;
+document.querySelectorAll('[data-i]').forEach(el=>{const v=NAV[lang][el.dataset.i];if(v==null)return;const sp=el.querySelector('span');if(el.classList.contains('nav-cta')&&sp){el.firstChild.nodeValue=v+' '}else el.textContent=v});
 document.getElementById('ctBadges').innerHTML=c.badges.map(b=>`<span>${esc(b)}</span>`).join('');
 document.getElementById('ctWhy').innerHTML=c.why.map((w,i)=>`<article class="ct-card"><span class="no">0${i+1}</span><h3>${esc(w[0])}</h3><p>${esc(w[1])}</p></article>`).join('');
 document.getElementById('ctSteps').innerHTML=c.steps.map(s=>`<li><h3>${esc(s[0])}</h3><p>${esc(s[1])}</p><span class="who${s[3]?' h':''}">${esc(s[2])}</span></li>`).join('');
@@ -174,5 +176,6 @@ btn.disabled=true;st.className='status';st.textContent=c.fSending;
 try{const r=await fetch('https://formsubmit.co/ajax/anda@gaiapath.ai',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name,email,_replyto:email,organisation:f.organisation.value.trim(),teilnehmende:f.teilnehmende.value,message:f.message.value.trim(),sprache:lang,_subject:'Carrier Tower Demo-Anfrage – '+(f.organisation.value.trim()||name),_template:'table',_captcha:'false'})});
 const d=await r.json().catch(()=>({}));if(!r.ok||String(d.success)==='false')throw new Error(String(d.message||r.status));
 st.className='status ok';st.textContent=c.fOk;f.reset()}catch(err){st.className='status err';st.textContent=c.fErr}finally{btn.disabled=false}});
+const mt=document.getElementById('menuToggle'),mn=document.getElementById('mobileNav');if(mt&&mn){mt.addEventListener('click',()=>{mn.classList.toggle('show');mt.setAttribute('aria-expanded',String(mn.classList.contains('show')))});mn.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mn.classList.remove('show');mt.setAttribute('aria-expanded','false')}))}
 draw();
 })();

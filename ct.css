@@ -2,7 +2,7 @@
 .ct-page{background:#fafaf7;color:#1b3546}
 .ct-page h1,.ct-page h2,.ct-page h3{hyphens:manual;-webkit-hyphens:manual;overflow-wrap:normal;word-break:normal}
 .ct-wrap{max-width:1132px;margin:0 auto;padding:0 34px}
-.ct-hero{position:relative;background:linear-gradient(120deg,#0a2436 0%,#102c3b 60%,#14384a 100%);color:#fff;padding:130px 0 80px;overflow:hidden}
+.ct-hero{position:relative;background:linear-gradient(120deg,#0a2436 0%,#102c3b 60%,#14384a 100%);color:#fff;padding:80px 0 80px;overflow:hidden}
 .ct-hero .editorial-head{position:absolute}
 .ct-hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:56px;align-items:center}
 .ct-hero h1{font-size:clamp(38px,5.6vw,74px);letter-spacing:-.05em;line-height:1.05;margin:18px 0 22px;color:#fff}
@@ -143,7 +143,7 @@
 }
 @media(max-width:620px){
 .ct-wrap{padding:0 18px}
-.ct-hero{padding:110px 0 56px}
+.ct-hero{padding:48px 0 56px}
 .ct-hero .lede{font-size:16px}
 .ct-sec{padding:64px 0}
 .ct-top{margin-bottom:30px;gap:20px}
@@ -154,3 +154,4 @@
 .ct-hero-btns .btn{width:100%}
 }
 @media(max-width:380px){.ct-top h2,.ct-req h2{font-size:30px}.ct-hero h1{font-size:34px}}
+.ct-page section{scroll-margin-top:90px}
