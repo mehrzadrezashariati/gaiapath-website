@@ -257,7 +257,7 @@
 .cap-card,.problem-card{transition:transform .25s,box-shadow .25s}.cap-card:hover,.problem-card:hover{transform:translateY(-4px);box-shadow:0 14px 30px #15334514}
 .hero h1 em{background:linear-gradient(90deg,#dbb677,#f3d9a4,#dbb677);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 6s ease-in-out infinite}
 @keyframes shimmer{0%,100%{background-position:0 0}50%{background-position:100% 0}}
-/* Carrier Tower showcase */
+/* Career Tower showcase */
 .tower{background:radial-gradient(circle at 80% 20%,#1b4550,#0b2235 60%);color:white;overflow:hidden}
 .tower-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:8%;align-items:center}
 .tower h2{font-size:clamp(32px,3.6vw,53px);margin:18px 0 22px}.tower h2 em{color:#dbb677}
@@ -449,7 +449,7 @@
 @media(max-width:600px){.brief-blocks{grid-template-columns:1fr}}
 .anim .brief-doc{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
 @media(max-width:700px){.brief-table{min-width:0}.brief-table thead{display:none}.brief-table tr{display:block;padding:16px 0;border-bottom:1px solid #d9e1e3}.brief-table td{display:block;border:0;padding:4px 0}.brief-table td:first-child{white-space:normal;margin-bottom:6px}.brief-table td[data-l]:before{content:attr(data-l);display:block;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8c95}}
-/* GAIA note, Carrier Tower use */
+/* GAIA note, Career Tower use */
 .gaia-note{margin-top:14px;background:#fbf6ea;border-left:3px solid #d1a654}
 .gaia-note .asterisk{color:#d1a654}
 .gaia-note strong{color:#11273b}
